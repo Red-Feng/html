@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>宝可梦图鉴</title>
+    <link
+      rel="stylesheet"
+      href="https://matcha.mizu.sh/matcha.css"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f0f0f0;
+        color: #333;
+        margin: 0 auto;
+        padding: 0;
+      }
+      h1, h2, h3 {
+        color: #2c3e50;
+      }
+      p {
+        line-height: 1.6;
+      }
+      .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .header {
+        text-align: center;
+        padding: 20px 0;
+      }
+      .header img {
+        width: 100px;
+        height: auto;
+      }
+      .main-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+      .main-content article {
+        flex: 1 1 30%;
+        margin: 10px;
+        padding: 20px;
+        background-color: #ecf0f1;
+        border-radius: 10px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      }
+      .main-content article img {
+        display: block;
+        margin: 0 auto 10px;
+      }
+      .footer {
+        text-align: center;
+        padding: 20px 0;
+        background-color: #2c3e50;
+        color: #fff;
+      }
+      .highlight {
+        background-color: #ffeb3b;
+        padding: 5px;
+        border-radius: 5px;
+      }
+      .note {
+        font-style: italic;
+        color: #888;
+      }
+      .button {
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 10px 0;
+        font-size: 16px;
+        color: #fff;
+        background-color: #3498db;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      .button:hover {
+        background-color: #2980b9;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <hgroup>
+          <h1 id="hgroup-example"><a href="#">宝可梦示例</a></h1>
+          <p>探索宝可梦的世界，了解各种宝可梦的特性和故事。</p>
+        </hgroup>
+      </div>
+      <hr>
+      <p>
+        宝可梦，即神奇宝贝，是一种源自日本的虚构生物，它们拥有各种各样的能力和形态。在这个页面中，我们将介绍一些经典的角色和宝可梦。
+      </p>
+      <details open>
+        <summary>主角</summary>
+        <ol>
+          <li><strong>小智</strong>: 一位充满好奇心的少年，立志成为宝可梦大师。</li>
+          <li><strong>小霞</strong>: 小智的青梅竹马，擅长使用草系宝可梦。</li>
+          <li><strong>小刚</strong>: 小智的好友，喜欢冒险和挑战。</li>
+          <li><strong>火箭队三人组</strong>: 一群试图捕捉所有宝可梦的反派角色。</li>
+          <li><strong>其他训练师</strong>: 各具特色的训练师们，与主角们一起冒险。</li>
+        </ol>
+      </details>
+      <figure>
+        <figcaption>
+          主要人物
+        </figcaption>
+        <img loading="lazy" src="https://s1.52poke.com/wiki/thumb/0/0a/SS_%E5%B0%8F%E6%99%BA_2.png/53px-SS_%E5%B0%8F%E6%99%BA_2.png" height="80" alt="小智">
+        <img loading="lazy" src="https://s1.52poke.com/wiki/thumb/4/42/SM_%E5%B0%8F%E9%9C%9E.png/48px-SM_%E5%B0%8F%E9%9C%9E.png" height="80" alt="小霞">
+        <img loading="lazy" src="https://s1.52poke.com/wiki/thumb/5/53/AG_%E5%B0%8F%E5%88%9A.png/44px-AG_%E5%B0%8F%E5%88%9A.png" height="80" alt="小刚">
+        <img loading="lazy" src="https://s1.52poke.com/wiki/thumb/d/df/%E7%81%AB%E7%AE%AD%E9%98%9F%E4%B8%89%E4%BA%BA%E7%BB%84_BW.png/87px-%E7%81%AB%E7%AE%AD%E9%98%9F%E4%B8%89%E4%BA%BA%E7%BB%84_BW.png" height="80" alt="火箭队三人组">
+      </figure>
+      <div class="main-content">
+        <article>
+          <header>
+            <h1>
+              <img src="https://media.52poke.com/wiki/e/e3/Spr_3e_025.gif?20110608125359" alt="皮卡丘">
+              皮卡丘
+            </h1>
+          </header>
+          <p>
+            皮卡丘是一种可爱的小型宝可梦，拥有黄色的身体和红色的脸颊。它能够释放雷电攻击，是许多训练师的首选伙伴。
+          </p>
+          <footer class="muted">
+            #025
+          </footer>
+        </article>
+        <article>
+          <header>
+            <h1>
+              <img src="https://s1.52poke.com/assets/sprite/b2w2/front/004.gif" alt="小火龙">
+              小火龙
+            </h1>
+          </header>
+          <p>
+            小火龙是一种小型的火属性宝可梦，有着红色的身体和蓝色的尾巴。它能够喷射火焰，是火系宝可梦中的代表之一。
+          </p>
+          <footer class="muted">
+            #004
+          </footer>
+        </article>
+        <article>
+          <header>
+            <h1>
+              <img src="https://s1.52poke.com/wiki/e/ed/Spr_3e_001.gif" alt="妙蛙种子">
+              妙蛙种子
+            </h1>
+          </header>
+          <p>
+            妙蛙种子是一种绿色的宝可梦，有着圆滚滚的身体和两片叶子。它是草系宝可梦的初学者形态，能够进行光合作用。
+          </p>
+          <footer class="muted">
+            #001
+          </footer>
+        </article>
+        <article>
+          <header>
+            <h1>
+              <img src="https://s1.52poke.com/assets/sprite/b2w2/front/007.gif" alt="杰尼龟">
+              杰尼龟
+            </h1>
+          </header>
+          <p>
+            杰尼龟是一种蓝色的宝可梦，有着坚硬的壳和绿色的眼睛。它是水系宝可梦的初学者形态，能够使用各种水属性技能。
+          </p>
+          <footer class="muted">
+            #007
+          </footer>
+        </article>
+        <article>
+          <header>
+            <h1>
+              <img src="https://s1.52poke.com/assets/sprite/b2w2/front/150.gif" alt="超梦">
+              超梦
+            </h1>
+          </header>
+          <p>
+            超梦是一种强大的超能力宝可梦，拥有惊人的力量和智慧。它是由科学家通过基因工程创造出来的，具有极高的战斗能力。
+          </p>
+          <footer class="muted">
+            #150
+          </footer>
+        </article>
+        <article>
+          <header>
+            <h1>
+              <img src="https://s1.52poke.com/assets/sprite/b2w2/front/143.gif" alt="卡比兽">
+              卡比兽
+            </h1>
+          </header>
+          <p>
+            卡比兽是一种大型的宝可梦，通常以睡觉和吃东西为主。它拥有强大的体力和防御能力，是许多训练师的可靠伙伴。
+          </p>
+          <footer class="muted">
+            #143
+          </footer>
+        </article>
+      </div>
+      <hr>
+    </div>
+  </body>
+</html>
